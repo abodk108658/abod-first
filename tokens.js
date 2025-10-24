@@ -13,6 +13,6 @@ export default [
         presence: {
             status: "online",
         },
-        selfMute: False,
+        selfMute: True,
     },
 ];
