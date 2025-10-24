@@ -16,3 +16,18 @@ export default [
         selfMute: true,
     },
 ];
+  {
+        channelId: "1420820092761014363",
+        serverId: "1323926281162588190",
+        token: process.env.token2,
+        selfDeaf: false,
+        autoReconnect: {
+            enabled: true,
+            delay: 5, // ثواني
+            maxRetries: 5,
+        },
+        presence: {
+            status: "online",
+        },
+        selfMute: false,
+    },
